@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <link rel="stylesheet" href="./estilos.css">
+    <title>Skateshop:Precios</title>
+    <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+
+</head>
+<body>
+    <div class="container">
+        <h1>Presupuesto skateboard completo</h1>
+        <table>
+            <tr>
+                <th>Componente</th>
+                <th>Precio</th>
+            </tr>
+            <tr>
+                <td>Tabla</td>
+                <td>$50-100</td>
+            </tr>
+            <tr>
+                <td>Ejes</td>
+                <td>$30-70</td>
+            </tr>
+            <tr>
+                <td>Rodamientos</td>
+                <td>$10-20</td>
+            </tr>
+            <tr>
+                <td>Ruedas</td>
+                <td>$20-50</td>
+            </tr>
+            <tr>
+                <td>Lija</td>
+                <td>$8-20</td>
+            </tr>
+            <tr>
+                <td>Servicio de montaje</td>
+                <td>$5</td>
+            </tr>
+            <tr class="total">
+                <td>Total Estimado:</td>
+                <td>$123-265</td>
+            </tr>
+        </table>
+        <div class="footer">
+            Este presupuesto es estimativo y puede variar según el caso.
+        </div> <br>
+        Envienos sus datos y le enviaremos info y presupuestos detallados <br><br>
+        <form>
+            <label for="nombre">Nombre:</label><br>
+            <input type="text" id="nombre" name="nombre" required><br><br>
+          
+            <label for="email">Email:</label><br>
+            <input type="email" id="email" name="email" required><br><br>
+          
+            <label for="telefono">Teléfono:</label><br>
+            <input type="tel" id="telefono" name="telefono" required pattern="[0-9+()\s-]{7,}"><br><br>
+          
+            <label for="info">Solicite información:</label><br>
+            <textarea id="info" name="info" rows="5" cols="40" required></textarea><br><br>
+          
+            <input type="checkbox" id="privacidad" name="privacidad" required>
+            <label for="privacidad">Acepto la <a href="/politica-privacidad" target="_blank">Política de privacidad</a></label><br><br>
+          
+            <button type="submit">Enviar</button>
+          </form>
+    </div>
+
+    <div class="cubo">
+        <img class="logo" src="https://www.shutterstock.com/image-vector/skate-shop-sign-creative-typography-260nw-2166083947.jpg" alt="Logo de la empresa">
+
+        <div class="menu">
+            <a href="index.html">Inicio</a>
+            <a href="galeria.html">Galería</a>
+            
+            <a href="contacto.html">Contacto</a>
+          </div>
+          
+</body>
+</html>
